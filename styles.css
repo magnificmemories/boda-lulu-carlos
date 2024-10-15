@@ -1,0 +1,384 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url("fondo.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+img {
+  pointer-events: none;
+}
+
+.div-bienvenida {
+  margin-bottom: -50px;
+}
+.video-bienvenida {
+  width: 100%;
+}
+/* //// */
+.welcome-text {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.text-wel {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  font-size: 24px;
+  text-align: center;
+}
+/* ///// */
+.st-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.st-text-st-div {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+.img-st-div {
+  margin-top: -30px;
+  margin-bottom: -30px;
+  width: 100%;
+}
+.nd-text-st-div {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  margin-bottom: -50px;
+}
+/* ///// */
+.div-temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+.grid-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.time-font {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+}
+.stats-temp-time {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+.div-main-seconds {
+  margin-left: 20px;
+}
+.div-main-days {
+  position: relative;
+  left: -20px;
+}
+.days-to-party, .hours-to-party, .minutes-to-party, .seconds-to-party {
+  margin-bottom: -30px;
+}
+/* /// */
+.text-frase {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.text-frase {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+/* //// */
+.div-img-hand {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.img-hand {
+  width: 25%;
+}
+/* /// */
+.flowers-small {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+.div-parents {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+}
+.div-parents-wife {
+  text-align: center;
+  margin: 0;
+}
+.parents-wife-text {
+  font-size: 28px;
+  margin-bottom: -15px;
+}
+.parents-text {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.line-st-parents {
+  margin-bottom: -15px;
+}
+.line-parents {
+  width: 75%;
+}
+.mother-wife-text {
+  margin-bottom: -20px;
+} 
+.parents-text-nd {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+/* /// */
+.div-padrinos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-padrinos {
+  font-size: 28px;
+  margin-bottom: 7px;
+}
+.line-padrinos {
+  width: 45%;
+  margin-bottom: -7px;
+}
+.text-wom-padrinos {
+  margin-bottom: -15px;
+}
+.text-men-padrinos {
+
+}
+.padrinos-text {
+
+}
+/* /// */
+.div-img-mid {
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+}
+.last-image {
+  width: 100%;
+}
+/* /// */
+.div-penultimo-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.penultimo-text {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  width: 70%;
+}
+.flowers-text {
+  width: 100%;
+  top: -100px;
+  position: relative;
+  margin-bottom: -170px;
+}
+/* /// */
+.view-map-button {
+  margin-top: -15px;
+  background-color: white;
+  font-size: 18px;
+  height: 35px;
+  width: 135px;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 5px;
+}
+.div-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -50px;
+}
+.st-line-info {
+  width: 1.8%;
+  margin-bottom: -50px;
+}
+
+.st-title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.card-info-div {
+  display: flex;
+  flex-direction: row;
+}
+.logo-img {
+  width: 153px;
+  margin-right: 20px;
+  height: 150px;
+  margin-top: 20px;
+}
+.line-img {
+  width: 1.7%;
+  height: 200px;
+}
+.info-card {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-text {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+.iglesia-text {
+  margin-bottom: -20px;
+}
+.date-text {
+  margin-bottom: -20px;
+}
+.hour-text {
+
+}
+.card-1 {
+  position: relative;
+  bottom: 15px;
+}
+.logo-1 {
+  margin-right: 24px;
+}
+.card-2 {
+  position: relative;
+  bottom: 10px;
+}
+.logo-2 {
+  margin-right: 24px;
+  position: relative;
+  left: 10px;
+}
+.view-map-button-2 {
+  margin-top: 45px;
+  background-color: white;
+  font-size: 18px;
+  height: 35px;
+  width: 135px;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 5px;
+}
+.line-3-img {
+  position: relative;
+  left: 8px;
+}
+/* /// */
+.div-itinerario {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itinerario-img {
+  width: 100%;
+}
+.p-itinerario {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+/* /// */
+.last-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.title-last {
+  font-size: 45px;
+  margin-bottom: 12px;
+}
+.sobre-last {
+  width: 140px;
+}
+.last-text {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+}
+.last-line {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 440px) {
+  .line-1-ceremony {
+    width: 7px;
+  }
+}
+@media (min-width: 699px) {
+  .div-bienvenida {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: -50px;
+  }
+  .video-bienvenida {
+    width: 50%;
+  }
+  .img-st-div {
+    width: 50%;
+  }
+  .last-image {
+    width: 50%;
+  }
+  .img-hand {
+    width: 10%;
+  }
+  .line-parents {
+    width: 40%;
+  }
+  .line-padrinos {
+    width: 25%;
+  }
+}
+@media (min-width: 1229px) {
+  .div-parents-husband {
+    position: relative;
+    right: -10%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
